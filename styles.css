@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(
-        to left,purple,violet
+        45deg,violet,orange, red
         );
     color: white ;
     font-family: 'Candara', 'sans-serif';
