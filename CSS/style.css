@@ -1,0 +1,74 @@
+body {
+    background: url(../img/bg.jpg) no-repeat center;;
+    color: white;
+    font-family: 'Candara', 'sans-serif';
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}#profile-picture {
+    margin-top: 8%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 4px;
+    border-style: dotted;
+}.profile {
+    font-size: 19px;
+    font-weight: 700;
+}.description {
+    color: cyan;
+    font-weight: 550;
+    font-size: 20px;
+    margin-bottom: 15px;
+}.buttons {
+    color: white;
+    font-size: 25px;
+    transition: ease-in-out 0.3s;
+}.buttons:hover {
+    font-size: 30px;
+    color: black;
+}.links {
+    background-color: white;
+    font-family: 'Garamond', 'sans-serif';
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-width: 2px;
+    border-radius: 40px;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    font-weight: 520;
+    margin-right: auto;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}.links:hover {
+    background: none;
+    color: white;
+}footer {
+    margin-top: 110px;
+    padding-top: 80px;
+    position: fixed;
+    font-weight: 520;
+    font-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}.credit {
+    font-weight: 540;
+    color: cyan;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}.credit:hover {
+    color: yellow;
+}.fa-heart {
+    color: red;
+    transition: 0.3s ease-in-out;
+}.fa-heart:hover {
+    color: black;
+    font-size: 20px;
+}
