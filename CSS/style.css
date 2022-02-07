@@ -1,25 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
 body {
     background: linear-gradient(
-        rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.6)
-      ),url(../img/bg.jpg) no-repeat center;
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url(../img/bg.jpg) no-repeat center;;
     color: white;
-    font-family: 'Candara', 'sans-serif';
+    font-family: 'Podkova', serif;
     font-size: 15px;
     letter-spacing: 2px;
     text-align: center;
 }#profile-picture {
-    margin-top: 8%;
+    margin-top: 130px;
     height: 150px;
     width: 150px;
     border-radius: 50%;
     padding: 4px;
     border-style: dotted;
 }.profile {
+    font-family: 'Candara', 'sans-serif';
     font-size: 19px;
     font-weight: 700;
 }.description {
     color: cyan;
+    font-family: 'Rokkitt', serif;
+    font-style: italic;
     font-weight: 550;
     font-size: 20px;
     margin-bottom: 15px;
@@ -32,7 +38,6 @@ body {
     color: black;
 }.links {
     background-color: white;
-    font-family: 'Garamond', 'sans-serif';
     color: black;
     font-size: 18px;
     text-align: center;
@@ -44,7 +49,7 @@ body {
     max-width: 450px;
     display: block;
     margin-left: auto;
-    font-weight: 520;
+    font-weight: 600;
     margin-right: auto;
     text-decoration: none;
     transition: 0.3s ease-in-out;
