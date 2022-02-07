@@ -57,9 +57,8 @@ body {
     background: none;
     color: white;
 }footer {
-    margin-top: 110px;
-    padding-top: 80px;
-    position: fixed;
+    margin-top: 100px;
+    position: relative;
     font-weight: 520;
     font-size: 17px;
     background-repeat: no-repeat;
